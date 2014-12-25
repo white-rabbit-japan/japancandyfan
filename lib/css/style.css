@@ -267,7 +267,7 @@ h1,h2,h3,h4,h5,h6{
 
 h1{
 	font-size:32px;
-	line-height:46px;
+	/*line-height:46px;*/
 }
 
 h2{
@@ -294,6 +294,17 @@ h6{
 	font-size:14px;
 	line-height:24px;
 	text-transform:uppercase;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+ul li {
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 15px;
 }
 
 /* ========================================================== */
@@ -798,6 +809,15 @@ i.email_icon{
 	height:227px;
 }
 
+i.survey_icon{
+	display: inline-block;
+	margin-top:30px;
+	background:url(../images/survey.png) no-repeat;
+	width:227px;
+	height:227px;
+}
+
+
 .newsletter_info{
 	padding:20px 0 30px 60px;
 	border-left:1px solid #2a2f37;
@@ -835,7 +855,7 @@ i.email_icon{
 }
 
 #newsletter-form #submit-button-newsletter {
-    width: 140px;
+    width: 155px;
 	height:56px;
 	color:#fff;
     background-color:#27ae60;
